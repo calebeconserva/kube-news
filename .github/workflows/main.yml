@@ -52,7 +52,7 @@ jobs:
         uses: Azure/k8s-deploy@v3.1
         with:
           images: calebelc/kube-news:${{github.run_number}}
-          manisfests: |
+          manifests: |
             k8s/deployment.yaml
            
        
